@@ -2,4 +2,8 @@
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   background-color: #2A2C2F;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
