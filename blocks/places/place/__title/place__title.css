@@ -1,0 +1,10 @@
+.place__title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  padding-bottom: 32px;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 16px;
+}
