@@ -6,3 +6,9 @@
   text-decoration-line: underline;
   padding-left: 16px;
 }
+
+.place__link:hover {
+  cursor: pointer;
+}
+
+

@@ -1,4 +1,8 @@
 .cover__text {
   position: absolute;
   width: 100%;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  margin: 0;
 }

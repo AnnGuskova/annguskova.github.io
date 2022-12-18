@@ -1,0 +1,12 @@
+.place {
+  display: grid;
+  row-gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 28px;
+    row-gap: 48px;
+  }
+}
