@@ -1,5 +1,6 @@
 .cover {
   position: relative;
+  margin-bottom: 64px;
 }
 
 @media (min-width: 768px) {
@@ -7,4 +8,8 @@
     font-size: 72px;
     line-height: 76px;
   }
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
 }
