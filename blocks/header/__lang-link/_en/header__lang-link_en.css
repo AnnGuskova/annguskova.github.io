@@ -1,3 +1,7 @@
 .header__lang-link_en:lang(en) {
   text-decoration: underline;
 }
+
+.header__lang-link_en:lang (en):hover {
+  cursor: pointer;
+}

@@ -1,12 +1,19 @@
 .cover {
   position: relative;
   margin-bottom: 64px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
   .cover {
     font-size: 72px;
     line-height: 76px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    padding: 0 48px;
   }
 }
 

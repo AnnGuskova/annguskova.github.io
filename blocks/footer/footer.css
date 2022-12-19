@@ -1,3 +1,28 @@
 .footer {
   width: 100%;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 69px;
+    padding: 0 24px 24px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    gap: 277px;
+    padding: 0 48px 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
+    gap: 533px;
+  }
 }

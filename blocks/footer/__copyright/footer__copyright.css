@@ -3,8 +3,14 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  padding-top: 48px;
-  padding-bottom: 24px;
   margin: 0;
-  padding-left: 16px;
+  padding: 48px 0 24px;
+  white-space: nowrap;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    padding: 0;
+  }
 }

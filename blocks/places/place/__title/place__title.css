@@ -15,3 +15,12 @@
     word-spacing: 100vw;
   }
 }
+
+@media (min-width: 1024px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+    padding-left: unset;
+    word-spacing: 100vw;
+  }
+}

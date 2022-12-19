@@ -19,3 +19,14 @@
     padding-left: 24px;
   }
 }
+
+@media (min-width: 1024px) {
+  .intro__title {
+    padding-left: 48px;
+  }
+}
+@media (min-width: 1280px) {
+  .intro__title {
+    padding-left: 148px;
+  }
+}

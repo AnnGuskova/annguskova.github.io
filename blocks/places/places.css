@@ -13,3 +13,19 @@
     padding-bottom: 90px;
   }
 }
+
+@media (min-width: 1024px) {
+  .places {
+    padding-left: 48px;
+    padding-right: 48px;
+    row-gap: 80px;
+    padding-bottom: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    padding-left: 148px;
+    padding-right: 148px;
+  }
+}

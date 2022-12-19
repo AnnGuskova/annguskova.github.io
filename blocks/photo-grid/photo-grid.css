@@ -12,3 +12,18 @@
     column-gap: 16px;
   }
 }
+
+@media (min-width: 1024px) {
+  .photo-grid {
+    padding: 92px 48px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 14px;
+    column-gap: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
