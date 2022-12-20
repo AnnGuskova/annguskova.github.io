@@ -4,6 +4,7 @@
   white-space: pre-line;
   font-size: 32px;
   line-height: 35px;
+  margin: 0;
 }
 
 @media (min-width: 768px) {

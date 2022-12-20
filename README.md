@@ -7,4 +7,3 @@
 В работе использованы такие технологии, как HTML и CSS.
 
 Ссылка на проект в GitHub: https://annguskova.github.io/
-
