@@ -8,6 +8,7 @@
   align-items: center;
   gap: 16px;
   z-index: 1;
+  text-decoration-line: none;
 }
 
 @media (min-width: 768px) {
