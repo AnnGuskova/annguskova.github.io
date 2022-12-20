@@ -1,5 +1,5 @@
 .footer__link {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -11,11 +11,8 @@
 }
 
 @media (min-width: 768px) {
- .footer__link {
-   font-size: 16px;
-   line-height: 18px;
- }
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
-
-
-

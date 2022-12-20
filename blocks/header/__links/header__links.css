@@ -1,4 +1,13 @@
 .header__links {
   display: flex;
   gap: 18px;
+  list-style-type: none;
+  padding: 0 0 8px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .header__links {
+    padding-bottom: 6px;
+  }
 }

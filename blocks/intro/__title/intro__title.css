@@ -1,15 +1,13 @@
 .intro__title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 32px;
   line-height: 35px;
   font-weight: 900;
   width: 100%;
-  padding-left: 16px;
   margin: 0;
-  padding-top: 64px;
-  padding-bottom: 0;
   text-align: left;
   box-sizing: border-box;
+  padding: 64px 16px 0;
 }
 
 @media (min-width: 768px) {
@@ -17,16 +15,19 @@
     font-size: 54px;
     line-height: 58px;
     padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media (min-width: 1024px) {
   .intro__title {
     padding-left: 48px;
+    padding-right: 48px;
   }
 }
 @media (min-width: 1280px) {
   .intro__title {
     padding-left: 148px;
+    padding-right: 148px;
   }
 }

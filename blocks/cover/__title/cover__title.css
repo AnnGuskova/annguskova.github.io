@@ -1,10 +1,10 @@
 .cover__title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 900;
+  text-decoration-line: none;
+  white-space: pre-line;
   font-size: 32px;
   line-height: 35px;
-  width: 100%;
-  text-decoration-line: none;
 }
 
 @media (min-width: 768px) {
@@ -13,4 +13,3 @@
     line-height: 76px;
   }
 }
-
