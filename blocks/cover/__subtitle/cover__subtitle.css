@@ -6,7 +6,8 @@
   line-height: 16px;
   width: 100%;
   margin: 0;
-  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {

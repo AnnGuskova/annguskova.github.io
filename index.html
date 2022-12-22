@@ -16,11 +16,11 @@
              alt="Карта России" />
         <ul class="header__links">
           <li>
-            <a class="header__lang-link header__lang-link_ru"
+            <a class="header__lang-link header__lang-link_active"
                href="#">Ru</a>
           </li>
           <li>
-            <a class="header__lang-link header__lang-link_en"
+            <a class="header__lang-link"
                href="#">En</a>
           </li>
         </ul>
@@ -30,10 +30,10 @@
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а
             здесь.</p>
-          <img class="lead__image"
-               src="images/lead-polka.jpg"
-               alt="Девушка в поезде" />
-          <p class="lead__caption">ваша полка — верхняя</p>
+            <img class="lead__image"
+                 src="images/lead-polka.jpg"
+                 alt="Девушка в поезде" />
+            <p class="lead__caption">ваша полка — верхняя</p>
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -115,11 +115,11 @@
         </section>
         <section class="places">
           <div class="place">
-            <h3 class="place__title">Куршская коса</h3>
+            <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <div class="place__url-heading">
+              <h5 class="place__url-heading">
                 URL
-              </div>
+              </h5>
               <a class="place__link"
                  href="https://park-kosa.ru">
                 park-kosa.ru
@@ -144,7 +144,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Кольский</h3>
+            <h2 class="place__title">Кольский</h2>
             <div class="place__website">
               <div class="place__url-heading">
                 URL
@@ -172,7 +172,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Алтай</h3>
+            <h2 class="place__title">Алтай</h2>
             <div class="place__website">
               <div class="place__url-heading">
                 URL
@@ -200,7 +200,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Зимний Байкал</h3>
+            <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
               <div class="place__url-heading">
                 URL
@@ -227,7 +227,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Карелия</h3>
+            <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <div class="place__url-heading">
                 URL
@@ -256,25 +256,24 @@
           </div>
         </section>
         <section class="cover">
-          <a class="cover__text" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <h2 class="cover__title"
-            >До Байкала
-              «на собаках»</h2>
-            <p class="cover__subtitle"
-            >По мотивам учебной темы
-              о Транссибе — путешествие
-              от столицы до Байкала на электричках.</p>
-          </a>
-          <img class="cover__background"
-               src="images/cover-trains.jpg"
-               alt="Железнодорожные пути" />
-          <a class="cover__overlay"
+          <a class="cover__text"
              href="https://stampsy.com/na-elektrichkakh-do-baikala">
+            <p class="cover__title">
+              <span>До Байкала</span>
+              <span>«на собаках»</span>
+            </p>
+            <p class="cover__subtitle">
+              <span>По мотивам учебной темы</span>
+              <span>о Транссибе — путешествие</span>
+              <span>от столицы до Байкала на электричках.</span>
+            </p>
           </a>
+          <div class="cover__overlay"</div>
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer__links">
+        <nav>
+          <ul class="footer__links">
           <li><a class="footer__link"
                  href="https://yandex.ru/maps">Карты</a></li>
           <li><a class="footer__link"
@@ -285,9 +284,9 @@
                  href="https://calendar.yandex.ru">Календарь</a></li>
           <li><a class="footer__link"
                  href="https://travel.yandex.ru">Путешествия</a></li>
-        </ul>
+          </ul>
+        </nav>
         <p class="footer__copyright">&copy;2022. Анна Гуськова</p>
       </footer>
-    </div>
   </body>
 </html>

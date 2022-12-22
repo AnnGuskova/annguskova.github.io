@@ -20,7 +20,5 @@
   .place__title {
     font-size: 72px;
     line-height: 76px;
-    padding-left: unset;
-    word-spacing: 100vw;
   }
 }

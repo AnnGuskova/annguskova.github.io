@@ -1,7 +1,0 @@
-.header__lang-link_ru:lang(ru) {
-  text-decoration: underline;
-}
-
-.header__lang-link_ru:lang (ru):hover {
-  cursor: pointer;
-}
