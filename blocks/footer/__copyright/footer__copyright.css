@@ -10,6 +10,7 @@
 
 @media (min-width: 768px) {
   .footer__copyright {
-    padding: 0;
+    padding-bottom: 24px;
+    padding-top: 0;
   }
 }

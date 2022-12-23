@@ -2,3 +2,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (min-width: 1280px) {
+  .footer {
+    max-width: 1280px;
+    box-sizing: border-box;
+  }
+}

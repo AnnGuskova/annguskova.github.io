@@ -9,6 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -30,6 +31,8 @@
     margin-left: 48px;
     margin-right: 48px;
     height: 740px;
+    max-width: 1280px;
+    box-sizing: border-box;
   }
 }
 
