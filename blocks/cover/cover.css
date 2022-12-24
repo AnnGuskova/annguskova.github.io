@@ -8,21 +8,23 @@
   background: url("../../images/cover-trains.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
-  overflow: hidden;
+  min-height: 200px;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
   .cover {
     font-size: 72px;
     line-height: 76px;
-    height: 480px;
+    min-height: 480px;
+    height: 100%;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
+    height: 100%;
   }
 }
 
@@ -30,7 +32,8 @@
   .cover {
     margin-left: 48px;
     margin-right: 48px;
-    height: 740px;
+    min-height: 740px;
+    height: 100%;
     max-width: 1280px;
     box-sizing: border-box;
   }
