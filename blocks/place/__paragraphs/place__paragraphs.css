@@ -1,5 +1,6 @@
 .place__paragraphs {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 25px;
   padding-left: 16px;
   padding-right: 16px;
@@ -9,5 +10,11 @@
   .place__paragraphs {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraphs {
+  row-gap: 26px;
   }
 }

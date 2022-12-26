@@ -4,7 +4,13 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
-  padding-bottom: 12px;
-  padding-top: 0;
+  padding: 0 16px 12px;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .place__url-heading {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
