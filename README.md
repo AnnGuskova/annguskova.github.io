@@ -6,4 +6,4 @@
 
 В работе использованы такие технологии, как HTML и CSS.
 
-Ссылка на проект в GitHub: https://annguskova.github.io/russian-travel/
+Ссылка на проект в GitHub: https://anna-bor.github.io/russian-travel/
